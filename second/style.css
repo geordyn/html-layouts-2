@@ -1,0 +1,86 @@
+body {
+  background-color: lightgray;
+  margin: 0px;
+  overflow-x: hidden;
+
+}
+
+.mainTop {
+  background-color: white;
+  color: black;
+  width: 100vh;
+  height: 220px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.click1 {
+  background-color: red;
+  height: 50px;
+  width: 80px;
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+.click2 {
+  background-color: blue;
+  height: 50px;
+  width: 80px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.mainBottom {
+  background-color: white;
+  color: black;
+  width: 100vh;
+  height: 400px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.image {
+  height: 80%;
+  width: 600px;
+  margin: auto;
+  background-color: pink;
+  text-align: center;
+}
+
+
+footer {
+  width: 100vw;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+.link {
+  height: 100%;
+  width: 10%;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.link:hover {
+  color: white;
+}
